@@ -1,0 +1,10 @@
+.bus-container {
+    padding: 10px;
+    margin-left: 150px;
+}
+
+.bus-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}

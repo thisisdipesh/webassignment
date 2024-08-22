@@ -1,0 +1,123 @@
+.bus-body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.bus-header {
+    background-color: #004242;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.bus-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.bus-filters {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bus-dropdown label {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.bus-dropdown select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.bus-vehicle-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    padding: 20px;
+    justify-items: center;
+
+}
+
+.bus-vehicle-busd {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #004242;
+}
+
+.bus-image-container img {
+    width: 100%;
+    display: block;
+}
+
+.bus-info-container {
+    padding: 16px;
+    background-color: white;
+}
+
+.bus-location,
+.bus-seats {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bus-location img,
+.bus-seats img {
+    margin-right: 8px;
+}
+
+.bus-location,
+.bus-seats,
+.bus-price-section {
+    justify-content: flex-start;
+}
+
+.bus-price-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bus-price {
+    text-align: left;
+}
+
+.bus-price .bus-estimate {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.bus-price .bus-amount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #004242;
+}
+
+.bus-book-button button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #004242;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.bus-book-button button:hover {
+    background-color: #218838;
+}
